@@ -206,3 +206,16 @@ What do we do if a site has something to offer but it doesn't fit the need of th
 Can we send currency to other sites? DEIMS center? Web center of excellence? Web space for everyone?
 
 Programming services -- Wade is very generous, people are using his product. PASTA-prog is helpful but it could be overwhelming.
+
+
+What does being a network mean?
+
+* same descriptors for everyone
+* people worried about interest in data or stealing data
+* NSF cares that data is accessible, available, and can be easily used
+* NSF slow to recognize data management is important
+* would need data manageres to visit NSF
+* working in a federated fashion?
+
+
+Groups overviewed what they found (1-5). Theresa, Gastile, Inigo etc.
