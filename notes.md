@@ -1,13 +1,13 @@
 Working Groups
 =======
 
-Theresa - GIS GROUP
+Theresa -- GIS GROUP
 -----
 * Gis Group needs more people
 * GEONIS needs a service agreement
 
 
-Don - SENSOR GROUP
+Don -- SENSOR GROUP
 -----
 * Smart Forest
 * Sensor Networks
@@ -15,7 +15,7 @@ Don - SENSOR GROUP
 * Where are they now
 
 
-John- PASTA GROUP
+John -- PASTA GROUP
 -----
 
 * better search options
@@ -54,7 +54,7 @@ POSTERS / WORKING Groups
 >> JAMES HAD A MOUSTACHE AS A BABY
 
 
-New Information Management stuff
+Phil -- (leading discussion) IM going forward with new structure
 -----
 
 * provide a well documented set of core network information management serveices that support data preservation and re-use
@@ -65,4 +65,40 @@ New Information Management stuff
 * administrative functions are needed
 
 * Operations Committee:
-- NISAC, IM EXEC, etc. committees will have over lap
+
+  * NISAC, IM EXEC, etc. committees will have overlap
+
+
+* Project management:
+
+  * The work that we are doing stays on track
+  * Management Processes - clearly defined. See flow chart?
+  * Data processing and discovery
+
+* Define a basic workflow
+
+  * input from the IMC
+  * Science colleagues
+  * Executive Core helps us to spend money in a way that makes sense to all involved
+  * Project selection/ prioritization process
+
+* Communications office collaboration?
+* IGERT grant for collaboration of broader sciences with IM's
+* NSF funding -- extension from Saran?
+* Can we move faster than that?
+* Theresa questions about meeting and funding :: could not hear well please fill in ::
+
+
+Breakout Topics
+----
+
+* service framework, core and additional, creative activities
+* strawman process for science input
+* committee structure, interactive relationships
+* technical infrastructure
+* budget developement
+
+In the new structure, how will we define our relationships so that it is not un-balanced.
+
+
+Peter Groffman came by
