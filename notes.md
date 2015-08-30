@@ -258,7 +258,7 @@ Corinna: HOW CAN WE MAKE INFORMATION MANAGEMENT MORE efficient
 -------------
 * who pulls the data together and processes them?
 * analysts?
-* information modelers coming in, scientific programmers 
+* information modelstaers coming in, scientific programmers
 * expert in some kind of data is the one who works on that kind of data on behalf of a subset of sites that have that type of data
 
 * HDF/NetCDF :)
@@ -268,3 +268,13 @@ Corinna: HOW CAN WE MAKE INFORMATION MANAGEMENT MORE efficient
 - "Specialist Services" : each site has a person who is an expert in one type of data who promotes an explicit model with certain data types.
 
 - Training?
+
+
+Later afternoon
+----
+
+* MOU
+* working with data 1
+* incentive to have own site would decrease over time
+* ways to make information management more efficient
+* was a little late
