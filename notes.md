@@ -219,3 +219,52 @@ What does being a network mean?
 
 
 Groups overviewed what they found (1-5). Theresa, Gastile, Inigo etc.
+
+
+--------
+
+Afternoon --
+
+* how can we make environmental data management more efficient
+* workflow development
+* how can we efficiently use the tools which are already out there
+* done vs. perfect
+
+- More efficient vs. better data product
+- Resistance of turning the data over to another data product to process
+- Mark - scientists don't even know that a lot of data models that are important, it's quite possible that researchers at a particular site don't even know that this model is good
+- LTER does not have a catalog of expertise
+- Currency may be really lopsided - training is critical in those cases
+- Bitcoin
+
+* what are good data products and what are useful data products?
+* xml, knb, PASTA, sites each doing things their own way is probably not as good-- synthesis working groups will not want to synthesize these groups
+* nut-net and drought-net -> standardized sampling is not really an option for us
+
+* can we ever get to the place where things just flow easily into a database?
+* adding more work to what we already doc
+* mapping would be watched over
+
+* The larger issue is making the data at the site discoverable and integrateble for the synthesis efforts
+
+* new data and legacy data -- may need to be prioritized -- should we get the data in or work on how we get it out.
+
+Common schema and common syntaxes for expressing our managements and structures - now what?
+- site contributes?
+- site does not contribute?
+- person working there
+
+Corinna: HOW CAN WE MAKE INFORMATION MANAGEMENT MORE efficient
+-------------
+* who pulls the data together and processes them?
+* analysts?
+* information modelers coming in, scientific programmers 
+* expert in some kind of data is the one who works on that kind of data on behalf of a subset of sites that have that type of data
+
+* HDF/NetCDF :)
+
+* Recommend this directory of specialty:
+
+- "Specialist Services" : each site has a person who is an expert in one type of data who promotes an explicit model with certain data types.
+
+- Training?
