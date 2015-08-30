@@ -102,3 +102,107 @@ In the new structure, how will we define our relationships so that it is not un-
 
 
 Peter Groffman came by
+
+* Margaret -- technical interactions for on and off campus
+* UVA, Wisconsin, etc. interested.
+* Rules on the distribution of the money
+* Accountability from the ESIP PI?
+* Could not do this from office -- could not use ESIP infrastructure.
+* If ESIP will facilitate the science, it would be good.
+
+* Many lunches?
+
+
+Communications office
+-------------
+
+* NCEAS
+* planned not as an inheritance of current components
+* scientific programming support
+* continuity
+* science working groups -> synthesis working groups and education
+* full time communication sperson
+* EcoLog - best established list serv
+
+     LISTSERV@LISTSERV.UMD.EDU
+
+     body message "SUBSCRIBE ECOLOG-L"
+
+* Matt Jones
+* Director of computing
+* Collaborative versioning and training the importance of code as a scientific product
+* Inigo : how is the communications office going to help?
+
+
+Group 4 notes
+----------
+
+>> Start with brainstorming - Cor
+
+>> Itemization of what has worked, and what we can continue and expand like Design working groups, IM working groups, EML mentor, GCE Working groups- MCM
+
+>> Thematic data centers, centers of excellence around various data themes, streamflow chemistry, working groups that could address that specifically so that the datasets can be named and structured in a way that they could be more easily pulled together at one site and people map in somehow - Don
+
+>> A synthesis theme that the scientists would like? Lay the foundation for better described data that scientists could actually use - Don, Corinna, Emery
+
+>> Corals of the Future - Science Synthesis working group that used the Moorea Model and tried to apply it to other sites - main suggestion was making a consistent data product modelled after the LTER data on Coral. -- MCM
+
+>> Scope of data products - how can we get to a data product that is more flexible? Develop base level products that you can do analysis and synthesis that fits with the needs -- MCM, Corinna, Emery, Don
+
+>> Best practices for how to do the stream data (or any kind of example data) - Climate best practices, Stream best practices, etc. - use the recommendations. Not complete uniformity but at least consistency across the measurements - Emery
+
+>> NCEAS - first practice is to say what data we have and what condition that it is in. Some PI's don't know what they have, but others are able to provide lovely data on a link. Hardest thing is to keep people from bottlenecking on data that already exists. Scope is narrow for some things like coral reefs; scope is broad for things like stream chemistry. -MCM
+
+>> Scientists will always want much more than we could provide - general consensus
+
+>> Put the data into a public repository - EML, LTER, DataOne, CUASHI -- prexisting schema may help. Funding of people who do this ran out. We need documentation of the labs, methods, significant digits, detection limits, etc. If that was out there, sites could fit into it better. Attributes could be standardized, but right now they are not.  Alba, etc. spent a lot of time trying to clean those things up. A real data component to a science synthesis project -- Don, MCM, Corinna
+
+>> NCEAS requires every science working group to be involved with their programmers and the liason -- do they actually have a lot of products.
+
+>> Will NSF Fund this? VEG-E (no), Clim-DB (yes)-- Corinna, Don, Emery
+
+----------
+
+In theory....
+
+* we have a database of high value, scientists would approve it, how to get the data into the database and have people use it?
+* a funded representative helps to pull the data into the database
+* is there another way?
+* taking the idea of a center of excellence a little further and actually managing the data for all the sites -- not using the local IM at all but rather processing all the data for all the sites -- trade off the data into a new gear
+* direct communication between external IM at the excellence center and the field techs. It has potential to be more efficient. Have best practices sessions first.
+* Full range of variability that is at all the sites. Output final structure outputs. Don (or theoretical excellence person) designs the output to fit whatever is best.
+
+-----
+
+* What is the currency?
+* Data types:
+
+  - Streaming Data
+  - Organism Surveys
+  - Climate
+  - "Critter Counts"
+  - ITIS descriptions : taxonomy changes faster than ITIS? <coral>
+
+
+----
+
+* sites might be not wanting to give up control
+* best practices - sites would develop as well as they could - a person can move between the sites to make a nice synthetic data set. Maybe updated every so often.
+* Could we have flagship products which are live and they update themselves
+* Scientists pass it over to the data scientists
+
+Conclusions:
+----
+
+3 ideas : we don't really know which would work, but it might cost some $ for these, and we don't want to ask the $ for this
+
+- trading of units of work
+- synthesis person on a specific topics
+- center of excellence for a particular topic
+
+
+What do we do if a site has something to offer but it doesn't fit the need of the other sites?
+
+Can we send currency to other sites? DEIMS center? Web center of excellence? Web space for everyone?
+
+Programming services -- Wade is very generous, people are using his product. PASTA-prog is helpful but it could be overwhelming.
