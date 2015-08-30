@@ -22,3 +22,6 @@ Working Groups
 * Inigo -- DRUPAL GROUP
 * code commits for the master branches of DEIMS
 * special ones for each group, like mcmurdo, ntl :: add more ::
+* CSV v. EML etc.
+* Training? - last year Taiwan too far? but this year, 3 sessions
+* Development, training, migration and adoption
