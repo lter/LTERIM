@@ -9,7 +9,7 @@ Working Groups
 * Don - SENSOR GROUP
 * Smart Forest
 * Sensor Networks
-* Streaming Data webpage- Wade, Sven, Phil, Margaret, etc.
+* Streaming Data webpage- who has?-- Wade, Sven, Phil, Margaret, :: add more ::
 * Where are they now
 
 
@@ -17,3 +17,8 @@ Working Groups
 * better search options
 * METADATA organization
 * too many results in some cases
+* first all site searchable data
+
+* Inigo -- DRUPAL GROUP
+* code commits for the master branches of DEIMS
+* special ones for each group, like mcmurdo, ntl :: add more ::
