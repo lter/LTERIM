@@ -278,3 +278,22 @@ Later afternoon
 * incentive to have own site would decrease over time
 * ways to make information management more efficient
 * was a little late
+
+Re-meet-up
+---------
+
+>>Theresa --> services group, lots of documents, added some to those, use the GEONIS as a template from which other services can involve.
+
+>>John --> Training, graduate students, not only contribute data but use the data we are providing, the role of data quality and metadata quality.
+(Wade notes we need a way to evaluate quality)
+
+>>Phil --> We talked more about NISAC. Who said we have to attend all three days of ASM -- 2 day IM meeting? Proposal team (small, not know how to make), review team (one person from each group)
+
+>>Emery --> work more efficient and streamlined, and think about working with groups outside of LTER- data1, earthcube, datalink, esip, etc. Learn about what they are doing and think about how to frame the proposal in a way that might extend beyond the LTER. We also want to work with NCEAS and clarify what the relationships will be between our office and theirs.
+
+>>Margaret --> present our decision to them like a faculty search would be. A position description, our decision process, and why that person is a good fit. Four volunteers from EB want to review our proposal. 2-3 weeks between iterations? We might have a draft by september.
+
+>>Sites may want to participate in selection of the PI - we might create a document we can share with them. Phil and Theresa and Corinna would help to put it together. They would distribute it this week.
+
+>>Template to the sites by the 4th.
+By the 17th, submit a mini-proposal from each site (will fill in the template)
