@@ -366,3 +366,16 @@ Margaret's session on: Semantic web and NPP Data
 ### Eda brings up links between the DEIMS and Ontologies
 
 [LTER SKOS Vocabulary](http://im.lternet.edu/vocab_resources)
+
+* Consensus can be avoided if you put in a "fete comple" -- "uhm you did a lot of work but we can't do much better"
+* a nice, polished product that has utility for the scientists
+
+* ANPP means annual or aboveground net primary productivity
+* annotation properties: just "tags"? Not really deeply searchable
+* what is the binding - like if you bind to carbon, does it bind only to that level or does it also bind to the things above it?
+* measurements is the focus right now
+
+* import the subtrees of the ontologies that you need
+* example is "lignin" -- a behavior ontology
+
+* tagging is the formal semantics
