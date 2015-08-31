@@ -379,3 +379,94 @@ Margaret's session on: Semantic web and NPP Data
 * example is "lignin" -- a behavior ontology
 
 * tagging is the formal semantics
+
+
+-----------
+
+DRUPAL Workshop
+----
+
+* two people from UGA/GCE
+* using DRUPAL but don't know much
+* interested from Oracle perspective
+* David Blankman - the EML evangelist - woods hole, FCE, etc.
+* good for managing personnel and for managing content
+* bibliographic content fits in nicely
+* do not do a lot of the editing in drupal itself
+
+* how does new data get into DRUPAL?
+- forms are a pain in the butt
+
+------
+
+Very lovely streams in McMurdo:
+
+[MCM](http://mcm.lternet.edu/streams-data-sets)
+
+* Inigo has many options to do things with forms. A user doesn't see these forms. User goes to the new draft form and them moves from the display of the dataset to its form view. Dataset ID is part of the NIS system in the Pasta.
+
+* Editor can paste stuff straight from word.
+* content or ancillary. Each tab has different aspects of the data. You can add things like data sources, personnel, etc. The custom things in github can be special categories.
+* i.e. in McMurdo longterm v. shorterm.
+* very long maintenance field can be editted to hold history.
+* seems like a very good tool for linking people with data. in McMurdo the lead PI is usually the one listed.
+* selectable names in the database - this seems friendly.
+* methods : shows how we got the data in there
+
+* pull down of the core areas - actual LTER 5 core areas - can label the data set with different templates. Helps to create automated views and lists of things. CORE ---> THEMES ---> SITE SPECIFIC; linked to LTER controls made by John Porter.
+
+* put in the dates - 2015, etc. What happens if you put in a bad date format?
+
+* related information / relevant links
+* papers that result from the dataset - ones that are on your website- they are not referenced from an external source.
+* geo reference - can do all kinds of geo data -- string, shape file, different workflow puts these in so you don't have to worry that a stream is a point. renders the data set. Very good.
+* has its own CMS system built in, and includes an email re. commitments. When the moderation state moves to published its okay.
+
+* good data gathering workflow -- this is a reasonable system for establishing that.
+
+----
+
+All forms--
+
+* physical data, you upload it, it's Big
+* you can remove and replace the new data set, and upload it there. There's a ton of meta data you can add in.
+* you can store the delimiter
+* connectors to databases
+* your data database is separate from your drupal database
+* painfully rich metadata
+
+* discharge in L/s at MCM ? cfs at HJA. Hmmm
+
+* data explorer will let you query that special database using the native variables; builds a form that exposes teh variable and allow users to filter on that variable...
+
+* date times must match, discharge rates must match
+
+>> how does this work:
+[somehow this never gets hacked!](http://mcm.lternet.edu/node/2842/data)
+
+* inigo hacked the core of the mysql driver to keep the date space time titles to fix this. wow. amazing!
+
+
+* here is a page with the data sets and summaries, plus links to data explorer
+
+[content page from mcm](http://mcm.lternet.edu/content/average-glacier-stake-heights-and-snow-depths)
+* populates the name and variables
+
+* custom deims makes lovely images - inigo made a view in a block and put it into google images as a kml. really super awesome - renders a map with the polygons from the spatial data
+
+* d3 js used - nothing has to be written, reads right off the database. jquery/ajax for graphs. biblio module.
+
+* responsive web design has "priority columns set up"
+
+* [accessibility thing](http://www.codenewbie.org/podcast/accessibility)
+
+* invisi-mail, here's a form field [obfuscator](https://www.drupal.org/project/field_formatter_obfuscate)
+
+* The Book of DEIMS has all the interesting ways to install and use. Also it has "wizard". Clone from GitHub.
+
+* [Why is Drupal faster on Windows than nice Ubuntu?](https://groups.drupal.org/node/234373)
+
+Queue of things to do
+----------------
+* Improve and well document how to use project.roles <- this is something that could need fixing.
+* Improve personnel - metadata provider - front end
