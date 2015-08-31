@@ -297,3 +297,74 @@ Re-meet-up
 
 >>Template to the sites by the 4th.
 By the 17th, submit a mini-proposal from each site (will fill in the template)
+
+
+Corinna Semantic web and NPP Data
+----
+
+* NPP data - how to get
+* Data ontology we should explore
+
+* "increase terminological rigor in the sciences"
+* etimology of certain words important
+* there is some physical reality that is independent of the mind and we want the words to actually describe it - concepts or terms
+
+* Big Data = Volume, variety, velocity
+* Lehman and Tilman - so many definitions of the word "stability" -- how do we compare conclusions amongst many?
+* how do we capture the notion of forests
+* Simple semantics [SKOS](http://vocab.lternet.edu.vocab/vocab/index.php)
+* we need a better conclsept of terms at the dataset level
+
+* URL : uniform resource locator, static, rendered, pointers to places. If you're on a page let's talk
+
+  * could be called IRI's to represent international
+  * URI's : abstract that notion of location to identification
+  * URI's tell you about something at that end point - an identifier that is a "global identifier"
+  * Identify some resource. Any place on the web you can find.
+  * Persistance : identifiers that stick around for a long time
+  * what if we use the label like "is part of", "preys upon", "generates"
+
+      IRI: passenger pigeon
+      IRI: hasConservationStatus
+      IRI: extinct
+
+* set theory:
+  * difference between instances and subclasses - important to know
+  * The wine is the class, the data about the wine is the subclass, the bottle is the instance
+
+* Ontologies based on web standards are really where want to be based on the technical standards over the web.
+* what sort of structures are really useful to make something better than simple prototype ontologies
+
+* LET'S READ THE W3C STANDARDS TOGETHER!!!!
+
+* [owl](http://owl.cs.manchester.ac.uk/tutorials/protegeowltutorial/)
+* [protege](http://protegewiki.stanford.edu/wiki/Protege4GettingStarted)
+
+* annotation : binding a concept to instances of that concept in your data
+* semantic annotation - the scientist provides description about what information means
+
+* ecological cycling concepts - how to build an ontology - download an ontology editor such as protoge and use it to make a good system
+
+### contacts
+* mark schildhaur schild@nceas.ucsb.edu
+* margaret o'brien
+
+### Protege tool
+
+* can be used to make an ontology paper - puts in sources and stuff, you can annotate the column or the whole dataset with that concept, and you'll be saying that the data set adheres to the definition given
+* adopting the SKOS ontology
+* we included some connection information. Everyone should have an orchid ID or something else similar.
+
+* Term: "knowledge modeler"
+* Test queries - improve discovery -- build up a test corpus of the matches to the queries
+
+* Precision : you are getting what you want;
+* Recall : you are getting back a lot of cruft
+
+* semantics - how to broaden that search
+
+| ABC | D | E | F |
+|--|--|--|--|
+| SBC | > | > |   |
+|    | NTL | > |  |
+||AND|>||
