@@ -134,7 +134,7 @@ Communications office
 * Inigo : how is the communications office going to help?
 
 
-Group 4 notes
+Group 4 Notes: Begin with overview, then some less organized points
 ----------
 
 >> Start with brainstorming - Cor
@@ -172,7 +172,6 @@ In theory....
 * direct communication between external IM at the excellence center and the field techs. It has potential to be more efficient. Have best practices sessions first.
 * Full range of variability that is at all the sites. Output final structure outputs. Don (or theoretical excellence person) designs the output to fit whatever is best.
 
------
 
 * What is the currency?
 * Data types:
@@ -184,15 +183,12 @@ In theory....
   - ITIS descriptions : taxonomy changes faster than ITIS? <coral>
 
 
-----
-
 * sites might be not wanting to give up control
 * best practices - sites would develop as well as they could - a person can move between the sites to make a nice synthetic data set. Maybe updated every so often.
 * Could we have flagship products which are live and they update themselves
 * Scientists pass it over to the data scientists
 
-Conclusions:
-----
+### Group 4's conclusions
 
 3 ideas : we don't really know which would work, but it might cost some $ for these, and we don't want to ask the $ for this
 
@@ -200,13 +196,11 @@ Conclusions:
 - synthesis person on a specific topics
 - center of excellence for a particular topic
 
-
 What do we do if a site has something to offer but it doesn't fit the need of the other sites?
 
 Can we send currency to other sites? DEIMS center? Web center of excellence? Web space for everyone?
 
 Programming services -- Wade is very generous, people are using his product. PASTA-prog is helpful but it could be overwhelming.
-
 
 What does being a network mean?
 
@@ -218,12 +212,11 @@ What does being a network mean?
 * working in a federated fashion?
 
 
-Groups overviewed what they found (1-5). Theresa, Gastile, Inigo etc.
-
+Groups overviewed what they found (1-5). Theresa, Gastile, Inigo, Phil, :: add names ::
 
 --------
 
-Afternoon --
+Afternoon -- Corinna, Don, Me, Gastil, Mark from NCEAS, Emery, :: add names ::
 
 * how can we make environmental data management more efficient
 * workflow development
@@ -249,13 +242,15 @@ Afternoon --
 
 * new data and legacy data -- may need to be prioritized -- should we get the data in or work on how we get it out.
 
+
 Common schema and common syntaxes for expressing our managements and structures - now what?
+
 - site contributes?
 - site does not contribute?
 - person working there
 
-Corinna: HOW CAN WE MAKE INFORMATION MANAGEMENT MORE efficient
--------------
+* Corinna<- great question, HOW CAN WE MAKE INFORMATION MANAGEMENT MORE EFFICIENT?
+
 * who pulls the data together and processes them?
 * analysts?
 * information modelstaers coming in, scientific programmers
@@ -269,9 +264,7 @@ Corinna: HOW CAN WE MAKE INFORMATION MANAGEMENT MORE efficient
 
 - Training?
 
-
-Later afternoon
-----
+#### Later afternoon meeting
 
 * MOU
 * working with data 1
@@ -299,7 +292,7 @@ Re-meet-up
 By the 17th, submit a mini-proposal from each site (will fill in the template)
 
 
-Corinna Semantic web and NPP Data
+Margaret's session on: Semantic web and NPP Data
 ----
 
 * NPP data - how to get
@@ -346,6 +339,7 @@ Corinna Semantic web and NPP Data
 * ecological cycling concepts - how to build an ontology - download an ontology editor such as protoge and use it to make a good system
 
 ### contacts
+
 * mark schildhaur schild@nceas.ucsb.edu
 * margaret o'brien
 
@@ -368,3 +362,7 @@ Corinna Semantic web and NPP Data
 | SBC | > | > |   |
 |    | NTL | > |  |
 ||AND|>||
+
+### Eda brings up links between the DEIMS and Ontologies
+
+[LTER SKOS Vocabulary](http://im.lternet.edu/vocab_resources)
