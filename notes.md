@@ -471,3 +471,45 @@ Queue of things to do
 
 Morning Plenaries
 ---------
+
+#### Ned - Theresa's friend, data visualizations. Information manager from Coweeta.
+* Climate data
+* area of global change science where the models are great and the communication is important
+* originally worked in biodiversity -- LTER is his foundation
+
+
+* information to knowledge
+* REACHING PEOPLE WHERE THEY ARE!
+* the arctic - climate action plan - ned's team supported this with his toolkit
+* working actively with NASA
+* the trajectory of the Artic was a real concern. Really cared about sharing that message. color and "age" of ice
+
+* prioritzing outreach
+* data curation
+* data access (especially satallite)
+* sharing code
+* A UNIQUE AND VERY POWERFUL CONCEPT
+
+* really lovely data cover visualizer. Show people how remote sensing, multi-spectral systems work. Made a nice visualization that allows scientists to make maps that are all over the world. deconstruct how maps are made
+
+* biodiversity theme at the museum - bioviz
+
+* people who are non-scientists don't take in the information the way we do. "when people who are non-scientists see shifting colors on a map they say, 'oh, shifting colors on a map, okay'"
+
+* researchers out of yale - greenhouse gases read experiment
+
+* storytelling
+* data.gov
+
+
+* visualizations embedded within narratives can help people understand and build relationships
+
+* "watch the story" ==> simple visualizations can be VERY POWERFUL
+
+* FOX: This guy is my inspiration. I must be this Ned Gardiner guy.
+
+
+-------
+
+Challenges and Solutions Relating to Storage, Managing, and Delivering of High-Resolution data
+---
