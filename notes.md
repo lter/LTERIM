@@ -338,12 +338,12 @@ Margaret's session on: Semantic web and NPP Data
 
 * ecological cycling concepts - how to build an ontology - download an ontology editor such as protoge and use it to make a good system
 
-### contacts
+#### contacts
 
-* mark schildhaur schild@nceas.ucsb.edu
+* [mark schildhaur](schild@nceas.ucsb.edu)
 * margaret o'brien
 
-### Protege tool
+#### Protege tool
 
 * can be used to make an ontology paper - puts in sources and stuff, you can annotate the column or the whole dataset with that concept, and you'll be saying that the data set adheres to the definition given
 * adopting the SKOS ontology
@@ -355,17 +355,11 @@ Margaret's session on: Semantic web and NPP Data
 * Precision : you are getting what you want;
 * Recall : you are getting back a lot of cruft
 
-* semantics - how to broaden that search
+* semantics - how to broaden that search?
 
-| ABC | D | E | F |
-|--|--|--|--|
-| SBC | > | > |   |
-|    | NTL | > |  |
-||AND|>||
+#### Eda brings up links between the DEIMS and Ontologies
 
-### Eda brings up links between the DEIMS and Ontologies
-
-[LTER SKOS Vocabulary](http://im.lternet.edu/vocab_resources)
+* [LTER SKOS Vocabulary](http://im.lternet.edu/vocab_resources)
 
 * Consensus can be avoided if you put in a "fete comple" -- "uhm you did a lot of work but we can't do much better"
 * a nice, polished product that has utility for the scientists
@@ -395,13 +389,13 @@ DRUPAL Workshop
 * do not do a lot of the editing in drupal itself
 
 * how does new data get into DRUPAL?
-- forms are a pain in the butt
+* forms are a pain in the butt
 
 ------
 
 Very lovely streams in McMurdo:
 
-[MCM](http://mcm.lternet.edu/streams-data-sets)
+>> Here is a general link to the McMurdo streams site: [MCM](http://mcm.lternet.edu/streams-data-sets)
 
 * Inigo has many options to do things with forms. A user doesn't see these forms. User goes to the new draft form and them moves from the display of the dataset to its form view. Dataset ID is part of the NIS system in the Pasta.
 
@@ -426,30 +420,30 @@ Very lovely streams in McMurdo:
 
 ----
 
-All forms--
+* Most of Drupal is forms--
 
-* physical data, you upload it, it's Big
+* physical data, you upload it, it's BIG!
 * you can remove and replace the new data set, and upload it there. There's a ton of meta data you can add in.
 * you can store the delimiter
 * connectors to databases
 * your data database is separate from your drupal database
 * painfully rich metadata
 
-* discharge in L/s at MCM ? cfs at HJA. Hmmm
+* discharge in L/s at MCM ? CFS at HJA. Hmmm
 
 * data explorer will let you query that special database using the native variables; builds a form that exposes teh variable and allow users to filter on that variable...
 
 * date times must match, discharge rates must match
 
 >> how does this work:
-[somehow this never gets hacked!](http://mcm.lternet.edu/node/2842/data)
+
+* [somehow this never gets hacked!](http://mcm.lternet.edu/node/2842/data)
 
 * inigo hacked the core of the mysql driver to keep the date space time titles to fix this. wow. amazing!
 
-
 * here is a page with the data sets and summaries, plus links to data explorer
 
-[content page from mcm](http://mcm.lternet.edu/content/average-glacier-stake-heights-and-snow-depths)
+* [content page from mcm](http://mcm.lternet.edu/content/average-glacier-stake-heights-and-snow-depths)
 * populates the name and variables
 
 * custom deims makes lovely images - inigo made a view in a block and put it into google images as a kml. really super awesome - renders a map with the polygons from the spatial data
@@ -470,3 +464,10 @@ Queue of things to do
 ----------------
 * Improve and well document how to use project.roles <- this is something that could need fixing.
 * Improve personnel - metadata provider - front end
+
+
+
+----------------
+
+Morning Plenaries
+---------
