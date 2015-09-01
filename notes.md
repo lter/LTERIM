@@ -513,3 +513,66 @@ Morning Plenaries
 
 Challenges and Solutions Relating to Storage, Managing, and Delivering of High-Resolution data
 ---
+
+>>> What is big data?
+
+* share our ideas and experiences with storing and managing and delivering large data fields
+* services we might need at the network level?
+* big data set relates teh use of advanced methods like modeling to extract value from Data
+
+    * large, complex, or both
+
+* Ecological Systems Theory --> very complicated lots of stuff
+
+* how large is large?
+* reference list of existing resources for storing large data files
+* how large is large?
+* is there a constraint to the file size we can use in synthesis processes?
+* is the whole more than the sum of its parts?
+
+
+* pasta can't handle our really large data sets -- what do we do?
+
+
+* How to plan for giant data?
+
+    * talk to perspective PI's and Scientists
+    * Raid arrays etc. lose storage capacity, doubles every year and a half to two years the capacity for storage
+    * host institution can help to add space
+    * network capacity to transfer the files is limiting
+
+* I would suggest this: https://www.chameleoncloud.org/docs/user-guides/openstack-kvm-user-guide/ if i were allowed to talk.
+* budgets and funding cycles
+
+  * IM's must compete with scientists?
+  * Oregon state shares costs
+
+  * Pointer to pull down the large data
+  * Expanding using NAS HDD
+
+* project forms?
+* part of project planning phase?
+* other?
+
+* Amazon S3
+* it's expensive if you are transfering
+* Inigo is using the cloud
+
+#### methods
+
+* downloads
+* do it in the cloud
+* torrent
+* tarballs
+* tapes
+* mp3s
+
+* Map and image services as separate services
+
+* D-dupe "cyclic redundancy checking - makes sure there's not 600 copies of the same data on the server- everyone else gets just a pointer to it."-- really great approach. spatial data area is available to everyone, people are not making multiple copies of the same data.
+
+
+Judy Cushing and Susan's talk on VISUALIZATION!
+------------
+
+vistas.evergreen.edu
