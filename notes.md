@@ -592,3 +592,82 @@ Judy Cushing and Susan's talk on VISUALIZATION!
 * Envision and models - allison
 
 * techonology- Chris
+
+Wades MatLab / GCE Toolbox Section
+-----
+
+* Quick overview, then talking about how to use with Coweeta
+
+* Automating Sensor Data Collection with the GCE
+* started at GCE in 2000 - more than 4000 downloads and used at 80 + sites in LTER and elsewhere
+* MATLAB is a mathworks tool : its costly, but not bad as far as commercial software goes. It does allow tinkering with the source code. It is scaleable.
+* Data model that will work well with long-term data.
+
+* any number of numerical and text variables, structured metadata documentation along with it.
+* thoughts from fox : really it's a pretty great tool, when it's managed well for a specific source and site. with good programming knowledge and maintenance, and maybe a little bit of tinkering, I feel more inspired by this tool today than I do normally. Wade has a mastery of this tool that I did not see in other experiences with it.
+
+* all of its functions must use the attributes in its metadata to work with it out of the box.
+* Campbell logger files, Seabird Logger files, Hobo logger files, etc. * SQL data sources, CLIM-DB, Hydro DB, etc.
+* Data Turbine and other streaming data middleware.
+
+* "friends don't let friends type metadata" - is smart tool to get what it can get from the data headers
+* gives you managed data and fully documented data sets
+* there is a streamlined method to use the software without having to generate all the metadata and stuff, you can actually work with only the import and data stream parts -- I wonder if what the Andrews is doing is this? We seem to have a lot of metadata we don't use?
+
+* post-processing tools, can set rules on the drive values to carry through QC information as you work with it. The data and metadata can be exported in a variety of formats, or pushed into a relational database. Push directly into the Drupal system is a future possible. CUASHI data model. HTML, KML, XML, SQL dbs, etc. Generate the web dashabord from the box without doing special stuff.
+
+
+* select and merge can be automated, as well as cleaning between certain days.  Run any number of harvsters on a little schedule. Grow those files and go back in later and review the data
+
+* every operation is in the context of a dataset
+* there's a wiki site, svn repository -- I should ask if I can migrate it to github
+* user-support
+* list-serv
+* training opportunities / workshops
+* ISO standards aren't really used in MATLAB structure, because it is not so tabular? :: I didn't really follow this, but I think I missed something ::
+
+* harvest workflows
+* web design is coupled tightly- file is read from station to website
+* trimming features are built in to trim down the size of text files that can become un-useable.
+
+* you can do a lot in just the GUI
+
+* data set editor is the tool with the menu system
+
+* loads a naked campbell file and assigns nice names to it; doesn't know the units yet because they weren't in the campbell logger; comes in with basic data type information. Floating points, strings, etc. all described in there -- these help us use it in certain ways.
+
+* in the gui, you can change all the organization and structure of the attributes-- like wade showed how he changed "record" to ordinal from whatever it came in on
+
+* data table viewer in the database. the data is editted but once its destroyed or changed you can't go back. So you have to save originally an intact version.
+
+* Big edits, like filtering, will generate for you a backup - but small operations, like making a new flag, will not.
+
+* the date time- generates date component columns - there is a manual way to do all these changes.
+
+#### wade says "Python is a much better match for this sort of data and toolkit" :)
+
+^^ note the above being said for repeatability ^^
+
+* change the data select
+
+* right now there is not "flag semantics" - so you must always throw all the flags -- I, Q, V, etc. master list of flag with some priority ordering. They would maybe do this if they got more funding though :)
+
+* documentation from this presentation would be useful for future because there is a lot of documentation on the toolkit, so the wiki helps pair that down too.
+
+* QC Framework - data model has built in storage for the flags ('flags','values')
+
+* Data structure must fit the right framework before it can even go into the typed data system with all the rules. The qc is the finer scale qc
+
+
+
+* there are tools for bulk flagging and shift correction
+
+* the toolbox generally thinks in a vectorized way
+* rule based QC can "cause as many problems as you solve"
+* there are nice provisions for going back and doing manual flagging. This is one of GCE's nice features. This is good for removing flags too!
+* you can import and copy flags.
+
+* flags can really be manipulated very well manually. it has a ton of tools for this. Wade also has a good QC strategy -- limit rules, set based rules, etc. Multi-column dependency checks.
+
+* :: computer had to update, missed a few here :: but it is possible to interpolate missing date times
+* you can hide the missing values
