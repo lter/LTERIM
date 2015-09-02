@@ -530,9 +530,9 @@ Challenges and Solutions Relating to Storage, Managing, and Delivering of High-R
 * is there a constraint to the file size we can use in synthesis processes?
 * is the whole more than the sum of its parts?
 
-
 * pasta can't handle our really large data sets -- what do we do?
 
+* transfer of data as cost versus storage as costs!
 
 * How to plan for giant data?
 
@@ -541,7 +541,7 @@ Challenges and Solutions Relating to Storage, Managing, and Delivering of High-R
     * host institution can help to add space
     * network capacity to transfer the files is limiting
 
-* I would suggest this: https://www.chameleoncloud.org/docs/user-guides/openstack-kvm-user-guide/ if i were allowed to talk.
+* I would suggest this: https://www.chameleoncloud.org/docs/user-guides/openstack-kvm-user-guide/
 * budgets and funding cycles
 
   * IM's must compete with scientists?
@@ -564,7 +564,7 @@ Challenges and Solutions Relating to Storage, Managing, and Delivering of High-R
 * do it in the cloud
 * torrent
 * tarballs
-* tapes
+* tapes / flash disks
 * mp3s
 
 * Map and image services as separate services
@@ -575,20 +575,21 @@ Challenges and Solutions Relating to Storage, Managing, and Delivering of High-R
 Judy Cushing and Susan's talk on VISUALIZATION!
 ------------
 
+>> Did not get as many notes as I'd like because it was very interesting so I was sort of in my zone. Will be getting copies of notes from participants.
+
 [3D visualizations](http://vistas.evergreen.edu)
 
 * back transform space into image space
 * watched video
 
-* Theresa - fusion, watershed 1
+* Theresa - fusion, watershed 1,
 * point cloud lidar
 * Andrews LiDar - big data set many folders
 * profile of stream or trees
 
+* Bob - VELMA, Vistas - overlay, new technology is on the way!
+* stream flow vs. soil moisture v. other drivers
 
-* Bob - VELMA, Vistas - overlay
-* stream flow vs. soil moisture
-
-* Envision and models - allison
+* Envision and models - Allison
 
 * techonology- Chris
