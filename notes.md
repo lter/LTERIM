@@ -575,4 +575,20 @@ Challenges and Solutions Relating to Storage, Managing, and Delivering of High-R
 Judy Cushing and Susan's talk on VISUALIZATION!
 ------------
 
-vistas.evergreen.edu
+[3D visualizations](http://vistas.evergreen.edu)
+
+* back transform space into image space
+* watched video
+
+* Theresa - fusion, watershed 1
+* point cloud lidar
+* Andrews LiDar - big data set many folders
+* profile of stream or trees
+
+
+* Bob - VELMA, Vistas - overlay
+* stream flow vs. soil moisture
+
+* Envision and models - allison
+
+* techonology- Chris
