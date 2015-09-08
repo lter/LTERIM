@@ -492,15 +492,16 @@ Morning Plenaries
 
 * really lovely data cover visualizer. Show people how remote sensing, multi-spectral systems work. Made a nice visualization that allows scientists to make maps that are all over the world. deconstruct how maps are made
 
-* biodiversity theme at the museum - bioviz
+* biodiversity theme at the museum - BioViz.?
 
 * people who are non-scientists don't take in the information the way we do. "when people who are non-scientists see shifting colors on a map they say, 'oh, shifting colors on a map, okay'"
+
+>>> That statement above blows my mind. It's very true, and I'm also guilty of it. Having a good story-teller -- and more even embeding that story in our visualizations -- that is a key!
 
 * researchers out of yale - greenhouse gases read experiment
 
 * storytelling
 * data.gov
-
 
 * visualizations embedded within narratives can help people understand and build relationships
 
@@ -514,7 +515,7 @@ Morning Plenaries
 Challenges and Solutions Relating to Storage, Managing, and Delivering of High-Resolution data
 ---
 
->>> What is big data?
+>>> What is big data? Eda and Linda lead the group. Overall very good group, very inclusive and many people participated. Seems like we have a need to really know a lot more about what is big data and how to handle it, and quickly, but it is a new field and we don't maybe have the funds ready to explore it yet?
 
 * share our ideas and experiences with storing and managing and delivering large data fields
 * services we might need at the network level?
@@ -522,7 +523,7 @@ Challenges and Solutions Relating to Storage, Managing, and Delivering of High-R
 
     * large, complex, or both
 
-* Ecological Systems Theory --> very complicated lots of stuff
+* Ecological Systems Theory --> very complicated lots of stuff. I think this slide got added mainly to show how many words could be associated with this theme as an emphasis that searching big data is really hard.
 
 * how large is large?
 * reference list of existing resources for storing large data files
@@ -543,6 +544,7 @@ Challenges and Solutions Relating to Storage, Managing, and Delivering of High-R
 
 * I would suggest this: https://www.chameleoncloud.org/docs/user-guides/openstack-kvm-user-guide/
 * budgets and funding cycles
+* other one is "cloud lab"
 
   * IM's must compete with scientists?
   * Oregon state shares costs
@@ -554,11 +556,11 @@ Challenges and Solutions Relating to Storage, Managing, and Delivering of High-R
 * part of project planning phase?
 * other?
 
-* Amazon S3
-* it's expensive if you are transfering
-* Inigo is using the cloud
+* Amazon S3 - lots of data/servers. Amazon elastic beanstalk is a good way to get started (Fox side note)
+* It's expensive if you are transfering
+* Inigo is using the cloud currently. Possibly using Lambdas? Those are very amazing and cost-effective!
 
-#### methods
+#### methods for storing, transfering, and using big-data.
 
 * downloads
 * do it in the cloud
@@ -567,9 +569,15 @@ Challenges and Solutions Relating to Storage, Managing, and Delivering of High-R
 * tapes / flash disks
 * mp3s
 
+* what are people on our hall doing (TV/Fox)? They have very big data.
+
+* HDS and other distributed file systems? HADOOP!
+
 * Map and image services as separate services
 
-* D-dupe "cyclic redundancy checking - makes sure there's not 600 copies of the same data on the server- everyone else gets just a pointer to it."-- really great approach. spatial data area is available to everyone, people are not making multiple copies of the same data.
+* DDupe: "cyclic redundancy checking - makes sure there's not 600 copies of the same data on the server- everyone else gets just a pointer to it."-- Really great approach in Fox's opinion.
+
+* ex. of above : Spatial data area is available to everyone, people are not making multiple copies of the same data.
 
 
 Judy Cushing and Susan's talk on VISUALIZATION!
@@ -580,10 +588,10 @@ Judy Cushing and Susan's talk on VISUALIZATION!
 [3D visualizations](http://vistas.evergreen.edu)
 
 * back transform space into image space
-* watched video
+* watched video -- no notes were taken there.
 
-* Theresa - fusion, watershed 1,
-* point cloud lidar
+* Theresa - fusion, watershed 1,etc.
+* Point Cloud LiDAR is big, giant data.
 * Andrews LiDar - big data set many folders
 * profile of stream or trees
 
@@ -592,83 +600,175 @@ Judy Cushing and Susan's talk on VISUALIZATION!
 
 * Envision and models - Allison
 
-* techonology- Chris
+* Techonology- Chris
 
-Wades MatLab / GCE Toolbox Section
------
+* Ned is super amazing.
+
+* Game engines, HTML5/CSS/JS. How to get scientists to use the tools we love?
+
+>>> More notes to come soon from Emily and Susan. Need to get permissions to the G-drive.
+
+Wades MATLAB / GCE Toolbox Section
+====
+
+>>> This session happened pretty early in the morning on the 3rd day but there was a lot of interest and attendance to this group. Wade did a fantastic job, as usual, of presenting this tool. I think it is very appealing for scientists especially because they already use the MATLAB, so maybe many of them can adopt the toolbox for doing their own QC?
 
 * Quick overview, then talking about how to use with Coweeta
 
 * Automating Sensor Data Collection with the GCE
+
 * started at GCE in 2000 - more than 4000 downloads and used at 80 + sites in LTER and elsewhere
-* MATLAB is a mathworks tool : its costly, but not bad as far as commercial software goes. It does allow tinkering with the source code. It is scaleable.
+
+* MATLAB is a Mathworks tool : its costly, but not bad as far as commercial software goes. It does allow tinkering with the source code. It is scaleable. <-- this is news to me (Fox) <-- looking back on this note I see I am wrong, GCE toolbox is scaleable, it just needs to be used correctly.
+
 * Data model that will work well with long-term data.
 
 * any number of numerical and text variables, structured metadata documentation along with it.
-* thoughts from fox : really it's a pretty great tool, when it's managed well for a specific source and site. with good programming knowledge and maintenance, and maybe a little bit of tinkering, I feel more inspired by this tool today than I do normally. Wade has a mastery of this tool that I did not see in other experiences with it.
 
-* all of its functions must use the attributes in its metadata to work with it out of the box.
+* Thoughts from Fox : really it's a pretty great tool, when it's managed well for a specific source and site. With good programming knowledge and maintenance, and maybe a little bit of tinkering, I feel more inspired by this tool today than I do normally. Wade has a mastery of this tool that I did not see in other experiences with it.
+
+* All of its functions must use the attributes in its metadata to work with it out of the box. The Metadata is the key.
+
 * Campbell logger files, Seabird Logger files, Hobo logger files, etc. * SQL data sources, CLIM-DB, Hydro DB, etc.
+
 * Data Turbine and other streaming data middleware.
 
-* "friends don't let friends type metadata" - is smart tool to get what it can get from the data headers
+* *"friends don't let friends type metadata"* - GCE toolbox is/has a smart tool to get what it can get from the data headers :: what tool is this? is it automatic? I missed this ::
+
 * gives you managed data and fully documented data sets
+
 * there is a streamlined method to use the software without having to generate all the metadata and stuff, you can actually work with only the import and data stream parts -- I wonder if what the Andrews is doing is this? We seem to have a lot of metadata we don't use?
 
 * post-processing tools, can set rules on the drive values to carry through QC information as you work with it. The data and metadata can be exported in a variety of formats, or pushed into a relational database. Push directly into the Drupal system is a future possible. CUASHI data model. HTML, KML, XML, SQL dbs, etc. Generate the web dashabord from the box without doing special stuff.
 
-
 * select and merge can be automated, as well as cleaning between certain days.  Run any number of harvsters on a little schedule. Grow those files and go back in later and review the data
 
-* every operation is in the context of a dataset
-* there's a wiki site, svn repository -- I should ask if I can migrate it to github
-* user-support
-* list-serv
-* training opportunities / workshops
+* the basics:
+
+  * every operation is in the context of a dataset
+  * there's a wiki site, svn repository -- I should ask if I can migrate it to github
+  * user-support
+  * list-serv
+  * training opportunities / workshops
+
+
 * ISO standards aren't really used in MATLAB structure, because it is not so tabular? :: I didn't really follow this, but I think I missed something ::
 
-* harvest workflows
+* harvest workflows - these are the keys to getting data from field to computer. We have one at Andrews and we are sort of test site for this.
+
 * web design is coupled tightly- file is read from station to website
+
 * trimming features are built in to trim down the size of text files that can become un-useable.
 
 * you can do a lot in just the GUI
 
-* data set editor is the tool with the menu system
+* "data set editor" is the name of the tool with the menu system
 
-* loads a naked campbell file and assigns nice names to it; doesn't know the units yet because they weren't in the campbell logger; comes in with basic data type information. Floating points, strings, etc. all described in there -- these help us use it in certain ways.
+* loads a naked Campbell file (like a TOAA5) and assigns nice names to it; doesn't know the units yet because they weren't in the Campbell logger; comes in with basic data type information. Floating points, strings, etc. all described in there -- these help us use it in certain ways.
 
-* in the gui, you can change all the organization and structure of the attributes-- like wade showed how he changed "record" to ordinal from whatever it came in on
+* In the GUI, you can change all the organization and structure of the attributes-- like wade showed how he changed "record" to ordinal from whatever it came in on
 
-* data table viewer in the database. the data is editted but once its destroyed or changed you can't go back. So you have to save originally an intact version.
+* Data table viewer in the database. The data is edited but once its destroyed or changed you can't go back. So you have to save originally an intact version.
 
-* Big edits, like filtering, will generate for you a backup - but small operations, like making a new flag, will not.
+* Big edits, like filtering, will generate for you a backup - but small operations, like making a new flag, will not. Is there a list of what is "big" and "not big"-- Fox?
 
-* the date time- generates date component columns - there is a manual way to do all these changes.
+* The date time attribute generates date component columns - there is a manual way to do all these changes.
 
-#### wade says "Python is a much better match for this sort of data and toolkit" :)
+-------
+#### Wade says "Python is a much better match for this sort of data and toolkit" :)
+-----
 
-^^ note the above being said for repeatability ^^
+* *I am just messing with you, Wade! Although he truely did say this*
 
-* change the data select
 
-* right now there is not "flag semantics" - so you must always throw all the flags -- I, Q, V, etc. master list of flag with some priority ordering. They would maybe do this if they got more funding though :)
+* I wrote here "change the data select" but I don't know what I meant
 
-* documentation from this presentation would be useful for future because there is a lot of documentation on the toolkit, so the wiki helps pair that down too.
+* Right now there is not "flag semantics" - so you must always throw all the flags -- I, Q, V, etc. master list of flag with some priority ordering. They would maybe do this if they got more funding though :)
+
+* Documentation from this presentation would be useful for future because there is a lot of documentation on the toolkit, so the wiki helps it remain human readable.:: Can someone add the site and also the svn repository here::
 
 * QC Framework - data model has built in storage for the flags ('flags','values')
 
 * Data structure must fit the right framework before it can even go into the typed data system with all the rules. The qc is the finer scale qc
 
+* there are tools for bulk flagging and shift correction. These are built in.
+
+* #### a key is that: the toolbox generally thinks in a vectorized way
+* Rule based QC can "cause as many problems as you solve"
+* There are nice provisions for going back and doing manual flagging. This is one of GCE's nice features. This is good for removing flags too!
+
+* you can import and copy flags from data set to other data set.
+
+* flags can really be manipulated very well manually. GCE has a ton of tools for this I didn't know about.
+#### Wade also has a good QC strategy -- limit rules first, set based rules second. Then perform multi-column dependency checks.
+ :: elaborate::
+
+* it is possible to interpolate missing date times
+
+* you can hide the missing values when plotting.
+
+>>  :: computer had to update, missed notes here ::
 
 
-* there are tools for bulk flagging and shift correction
+PRECIP ANOMALIES - Graduate student lead meeting. Overall a smaller attendance but a tough time slot. Was very well done.
+------
 
-* the toolbox generally thinks in a vectorized way
-* rule based QC can "cause as many problems as you solve"
-* there are nice provisions for going back and doing manual flagging. This is one of GCE's nice features. This is good for removing flags too!
-* you can import and copy flags.
+:: note. please fix if I got your name wrong ::
+* Claire- cedar creek
+* LUQ persons. Many of these
+* CU Boulder NIWOT Ridge LTER
+* NTL Sam Zipper - agricultural and urban systems. CAP?
+* UGA person! GCE.
+* Dom - groundwater interest. Didn't catch site.
+* Alan Covich - PI at LUQ? Or GCE? Located in Athens.
 
-* flags can really be manipulated very well manually. it has a ton of tools for this. Wade also has a good QC strategy -- limit rules, set based rules, etc. Multi-column dependency checks.
+* link to Barb Bond's publications relating groundwater to precipitaiton and trees and interception: Dom (site I do not remember - was intersted in this.) [groundwater and precip and trees](http://andrewsforest.oregonstate.edu/lter/pubs/biblio/pubkeys.cfm?keytype=theme&keyword_id=1397&topnav=175)
 
-* :: computer had to update, missed a few here :: but it is possible to interpolate missing date times
-* you can hide the missing values
+* continuum of drought and the gradient in certain systems. LUQ for example.
+
+* oscillations and such, look at ::mms - not sure what this is:: versus different from historical averages
+
+* historical rain vs. continuous rain vs. sample consistency over time - what is a good metric for precipitation? We tend to like the cumulative rain over X amount of time. LUQ uses regular year, AND uses water year. What does everyone else use?
+
+* sample when there is a lot of rain - could be hard in places like Jornada. How to handle this?
+
+* GCE / LUQ intersted in stream flows and run off -- stream discharge, what's available to the forest, etc. evapotranspiration.
+
+* Cedar Creek inputs and penetration vs. LUQ, AND, GCE. Very different mostly due to soil type. Scientists interested in precipitation for different reasons.
+
+* satellite data combined to ground truthed data for extrapolaiton
+
+* luq.lternet.edu/article/2015/7/10/effects.... ::please if you have the rest of this link add to it, I didn't catch it::
+* the above link is a very cool graph with greenhouse and soil o2
+
+------
+A side note on Docker
+----
+
+>>> We talked a lot about Docker and I've been learning to use it. Set up on not Ubuntu is a little weird. Here's what I had to do on OS X to get my images and containers to work with my localhost.
+
+
+This is the correct way to connect
+
+Run `boot2docker delete && boot2docker init`.
+Then start boot2docker again.
+
+    computer:~ dataronin$ boot2docker up
+    Waiting for VM and Docker daemon to start...`
+    `........................oooooooooooooooooooo
+    Started.
+    Writing /Users/dataronin/.boot2docker/certs/boot2docker-vm/ca.pem
+    Writing /Users/dataronin/.boot2docker/certs/boot2docker-vm/cert.pem
+    Writing /Users/dataronin/.boot2docker/certs/boot2docker-vm/key.pem
+
+    To connect the Docker client to the Docker daemon, please set:
+        export DOCKER_HOST=tcp://192.168.59.104:2376
+        export DOCKER_CERT_PATH=/Users/dataronin/.boot2docker/certs/boot2docker-vm
+        export DOCKER_TLS_VERIFY=1
+
+
+-----
+
+Fox says:
+
+Overall, this meeting was very informative for me, and a little bittersweet. Many things I love, I had the chance to learn about. I saw them in the future of LTER, but maybe 3-5 years out there. I see right now as a **very big transition**, when choices are being made, and many of those choices revolve around "what of what we want to do can we not do just now because it may be costly or may not work." This is unfortunate, but reality. I see in many people - Inigo, Wade, Eda, Don, Linda, Judy, Theresa -- many people not just these but these stick out -- this knowledge that there is a future out there for LTER that has a very sleek, **web-facing** front end while having a controlled, scientist-friendly, metadata based back end. The topic of **ontologies** came up a lot and mostly about semantics but there was a mention also of using special ontologies for special users. The upcoming web seems to be all about the "user" and the **custom experience**, and recent advances in cryptology lead us to being able to store data and identities safely and without much space using things like public/private key encryption. Linking a scientist with a custom generated ontology, perhaps even through  the algorithm that encrypts their data, would provide a fast, meta-data based way to store information and retrieve it with a search. We also talked a lot about open-source. We feel **split on open source**. I am biased and shouldn't say much but suffice it to say this is a topic we need to address now because it can get out of hand quickly if not addressed. Many services, including one that starts with "git" and ends with "hub", offer both private repositories as well as private enterprise Hubs. There is a cost, of course, as there always is. Overall I see our change as a chance for the LTER sites to work together in developing network level data and processing models -- as long as we can get along with one another well enough to do so. I am hopeful based on this experience that we can. When marshgrass and douglas-fir and kelp are all wanting the same ends, but struggling to figure out a common language, it is a sign to me there is a unifying force driving our innovation. **Dissemination, specification, and mostly exploration** are the future of this LTER. It is an honor to be part of this team.
